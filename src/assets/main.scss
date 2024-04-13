@@ -1,0 +1,13 @@
+// bootstrap
+@import "bootstrap/scss/functions";
+@import "../assets/variables";
+@import "../assets/variables-dark";
+
+@import "bootstrap/scss/bootstrap";
+
+// bootstrap icon
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// custom
+@import "../assets/custom";
+

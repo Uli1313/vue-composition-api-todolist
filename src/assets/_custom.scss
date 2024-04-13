@@ -1,0 +1,23 @@
+.sd-in {
+  box-shadow: inset 2px 2px 8px 0 $dark, inset -2px -2px 8px 0 $white;
+}
+
+.sd-out {
+  box-shadow: 2px 2px 8px 0 $dark, -2px -2px 8px 0 $light;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.nav .nav-item .nav-link.active {
+  color: $dark;
+}
+
+.bg-custom {
+  background-image:
+    linear-gradient(285deg,  transparent 85%, $dark 85%),
+    linear-gradient(170deg, $primary 55%, transparent 40%),
+    linear-gradient(60deg, transparent 60%, $dark 60%)
+  ;
+}
